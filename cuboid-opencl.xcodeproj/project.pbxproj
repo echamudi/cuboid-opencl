@@ -28,6 +28,7 @@
 		729DB5412392F34B00C847AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		729DB5482392F3EE00C847AC /* wtime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wtime.c; sourceTree = "<group>"; };
 		729DB54A2392F3F300C847AC /* err_code.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = err_code.h; sourceTree = "<group>"; };
+		729DB54C2392F66C00C847AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		729DB5352392F34B00C847AC = {
 			isa = PBXGroup;
 			children = (
+				729DB54C2392F66C00C847AC /* README.md */,
 				729DB54A2392F3F300C847AC /* err_code.h */,
 				729DB5482392F3EE00C847AC /* wtime.c */,
 				729DB5412392F34B00C847AC /* main.c */,
