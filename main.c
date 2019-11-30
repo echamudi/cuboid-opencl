@@ -232,7 +232,7 @@ int main(int argc, char** argv)
     
     double ratio = seq_time / cl_time;
 
-    printf("\nThe sequential time is %lfX of the OpenCL time\n\n", ratio);
+    printf("The sequential time is %lfX of the OpenCL time\n\n", ratio);
 
     // Print Result
     for(int i = 0; i < 100; i++) {
