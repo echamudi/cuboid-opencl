@@ -41,6 +41,7 @@
 		729DB5352392F34B00C847AC = {
 			isa = PBXGroup;
 			children = (
+				729DB5412392F34B00C847AC /* main.c */,
 				729DB5402392F34B00C847AC /* cuboid-opencl */,
 				729DB53F2392F34B00C847AC /* Products */,
 			);
@@ -57,7 +58,6 @@
 		729DB5402392F34B00C847AC /* cuboid-opencl */ = {
 			isa = PBXGroup;
 			children = (
-				729DB5412392F34B00C847AC /* main.c */,
 			);
 			path = "cuboid-opencl";
 			sourceTree = "<group>";
