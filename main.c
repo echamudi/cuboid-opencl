@@ -44,7 +44,7 @@ const char *OpenCL_code = "\n" \
 "   __global int* result)                                               \n" \
 "{                                                                      \n" \
 "   int i = get_global_id(0);                                           \n" \
-"   result[i] = 2 * ((a[i] * b[i]) + (b[i] * c[i]) +  (a[i] * c[i]));                                     \n" \
+"   result[i] = 2 * ((a[i] * b[i]) + (b[i] * c[i]) +  (a[i] * c[i]));   \n" \
 "}                                                                      \n" \
 "\n";
 
