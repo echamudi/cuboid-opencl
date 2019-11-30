@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		729DB5422392F34B00C847AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 729DB5412392F34B00C847AC /* main.c */; };
+		729DB5492392F3EE00C847AC /* wtime.c in Sources */ = {isa = PBXBuildFile; fileRef = 729DB5482392F3EE00C847AC /* wtime.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		729DB53E2392F34B00C847AC /* cuboid-opencl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cuboid-opencl"; sourceTree = BUILT_PRODUCTS_DIR; };
 		729DB5412392F34B00C847AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		729DB5482392F3EE00C847AC /* wtime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wtime.c; sourceTree = "<group>"; };
+		729DB54A2392F3F300C847AC /* err_code.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = err_code.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +44,9 @@
 		729DB5352392F34B00C847AC = {
 			isa = PBXGroup;
 			children = (
+				729DB54A2392F3F300C847AC /* err_code.h */,
+				729DB5482392F3EE00C847AC /* wtime.c */,
 				729DB5412392F34B00C847AC /* main.c */,
-				729DB5402392F34B00C847AC /* cuboid-opencl */,
 				729DB53F2392F34B00C847AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,13 +57,6 @@
 				729DB53E2392F34B00C847AC /* cuboid-opencl */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		729DB5402392F34B00C847AC /* cuboid-opencl */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "cuboid-opencl";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +116,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				729DB5492392F3EE00C847AC /* wtime.c in Sources */,
 				729DB5422392F34B00C847AC /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
